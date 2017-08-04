@@ -1,0 +1,19 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "description": "example",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "mk-server": "^1.2.5",
+    "mk-service-auth": "^1.0.8",
+    "mk-service-db": "^1.0.9",
+    "mk-service-user": "^1.0.3",
+    "mk-service-utils": "^1.0.4"
+  }
+}
