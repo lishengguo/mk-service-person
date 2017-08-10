@@ -17,19 +17,17 @@ const api = {
             offset: pagination.current * pagination.pageSize,
             limit: pagination.pageSize,
         }
-        return service.findAll(param).then(companys => {
-            ctx.return(companys)
-        })
+        return service.findAll(param) 
     },
 
     create: (person, ctx) => {
         person.creator = ctx.token.userId
-        return service.create(person).then(ctx.return)
+        return service.create(person)
     },
 
-    update: (person, ctx) => service.update(person).then(ctx.return),
+    update: (person, ctx) => service.update(person),
 
-    delete: (person, ctx) => service.delete(person).then(ctx.return),
+    delete: (person, ctx) => service.delete(person),
 }
 
 module.exports = api

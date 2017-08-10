@@ -1,6 +1,6 @@
 {
   "name": "mk-service-person",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "directories": {
@@ -22,8 +22,8 @@
   "dependencies": {
     "mk-server": "^1.2.5",
     "mk-service-auth": "^1.0.8",
-    "mk-service-db": "^1.0.9",
-    "mk-service-user": "^1.0.3",
-    "mk-service-utils": "^1.0.4"
+    "mk-service-db": "^1.1.3",
+    "mk-service-utils": "^1.0.5",
+    "mk-service-user": "^1.0.4"
   }
 }
